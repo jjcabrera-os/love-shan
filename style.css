@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(45deg, #cd9aff75 0%, #fad0c4 99%, #fad0c4 100%);
+    background-image: linear-gradient(45deg, #80a6f875 0%, #fad0c4 99%, #fad0c4 100%);
 }
 
 body.noscroll {
@@ -24,7 +24,7 @@ body.noscroll {
     margin-left: auto;
     margin-right: auto;
     top: 40%;
-    background-color: #ff2a22;
+    background-color: #ed2e28;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,7 +40,7 @@ body.noscroll {
 }
 
 .flap {
-    border-top: 98px solid #ff2a22;
+    border-top: 98px solid #f61b13;
     border-left: 140px solid transparent;
     border-right: 140px solid transparent;
     border-bottom: 82px solid transparent;
@@ -79,7 +79,7 @@ body.noscroll {
     left: 50%;
     transform: translateX(-50%);
     font-size: 14px;
-    color: rgb(255, 6, 6);
+    color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif; /* Match your font */
     text-align: center;
     font-weight: bold;
