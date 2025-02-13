@@ -72,6 +72,22 @@ body.noscroll {
     -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
     max-height: 300px; /* Adjust as needed */
 }
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: rgb(255, 6, 6);
+    font-family: 'Poppins', sans-serif; /* Match your font */
+    text-align: center;
+    font-weight: bold;
+    font-style: ;
+    opacity: 0.8;
+}
+
+
 .letter:after {
     content: "";
     position: absolute;
@@ -87,6 +103,7 @@ body.noscroll {
     width: 80%;
     font-size: 14px; /* Adjust font size */
     color: black;
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5; /* Add line height for better readability */
 
@@ -220,7 +237,7 @@ body.noscroll {
 }
 
 .reset button {
-    font-weight: 800;
+    font-weight: bolder;
     font-style: normal;
     transition: all 0.1s linear;
     background-color: transparent;
@@ -248,6 +265,8 @@ body.noscroll {
 
 .valentine {
     text-align: center;
+    font-style: italic;
+    font-weight: bold;
     padding-left: 100px;
     padding-right: 100px;
     font-family: 'Poppins', sans-serif;
