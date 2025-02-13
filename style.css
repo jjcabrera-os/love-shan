@@ -6,7 +6,14 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(45deg, #80a6f875 0%, #fad0c4 99%, #fad0c4 100%);
+    background: linear-gradient(45deg, #80a6f875 0%, #fad0c4 99%, #fad0c4 100%);
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 body.noscroll {
@@ -73,7 +80,7 @@ body.noscroll {
     max-height: 300px; /* Adjust as needed */
 }
 
-.footer {
+footer {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -85,6 +92,19 @@ body.noscroll {
     font-weight: bold;
     font-style: ;
     opacity: 0.8;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.1); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.heartbeat {
+    display: inline-block;
+    animation: heartbeat 1s infinite;
 }
 
 
@@ -255,12 +275,15 @@ body.noscroll {
     text-decoration: none;
     min-width: 150px;
     outline: none;
+
 }
 
 .reset button:hover {
     background-color: #FF6863;
     cursor: pointer;
     color: white;
+    box-shadow: 0 0 10px #ff0000;
+    transition: 0.3s;
 }
 
 .valentine {
@@ -273,7 +296,11 @@ body.noscroll {
     color: rgb(235, 36, 36);
     font-size: 40px; /* Increase font size for emphasis */
     margin-bottom: 20px; /* Add spacing */
+    text-shadow: 0 0 10px rgba(255, 100, 100, 0.8);
+    animation: glowAnimation 1.5s infinite alternate;
 }
+
+
 
 @media (max-width: 768px) {
     .valentine {
