@@ -245,7 +245,7 @@ body {
 
 @media (max-width: 768px) {
     .valentine {
-        font-size: 24px; /* Smaller font size for mobile */
+        font-size: 16px; /* Smaller font size for mobile */
         padding: 0 10px; /* Add padding to prevent text overflow */
     }
 
