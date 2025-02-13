@@ -68,6 +68,9 @@ body.noscroll {
     margin-right: auto;
     overflow: auto; /* Add scroll if content overflows */
     pointer-events: auto;
+    overflow-y: auto; /* Allow scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+    max-height: 300px; /* Adjust as needed */
 }
 .letter:after {
     content: "";
